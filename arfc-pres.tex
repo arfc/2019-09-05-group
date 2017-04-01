@@ -39,6 +39,13 @@
 %Those icons in the references are terrible looking
 \setbeamertemplate{bibliography item}[text]
 
+%%%% Acronym support
+
+\usepackage[acronym,toc]{glossaries}
+\include{acros}
+
+\makeglossaries
+
 %try to get rid of header on title page\dots
 \makeatletter
     \newenvironment{withoutheadline}{
