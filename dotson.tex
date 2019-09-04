@@ -1,17 +1,6 @@
-\documentclass{beamer}
-% \usetheme{Illinois}
-\usecolortheme{IllinoisWhite}
-
-\usepackage{graphicx}
+% needed to create images without issue
 \graphicspath{{./images/}}
 
-\title{Machine Learning Applications in Nuclear Engineering}
-\author{Sam Dotson}
-\institute{University of Illinois at Urbana-Champaign}
-\date{2019}
-
-\begin{document}
-\frame{\titlepage}
 	\begin{frame}
 		\frametitle{Table of Contents}
 		\tableofcontents
@@ -42,8 +31,8 @@
 	\begin{frame}
 		\frametitle{$\texttt{ANNSA}$ - Convolutional Neural Network}
 		\begin{figure}
-			\includegraphics[width=5cm]{cnn-figure.png}
-			\caption{Credit goes to Mark Kamuda}
+			\includegraphics[width=4cm]{cnn-figure.png}
+			\caption{A 1-D CNN with a gamma ray spectrum as input. Credit: Mark Kamuda}
 		\end{figure}
 	\end{frame}
 
@@ -81,7 +70,7 @@
 			\item Microreactor control room simulator
 			\begin{enumerate}
 				\item Core
-				\item Electricity generator
+				\item Thermal Power Plant
 				\item Control room interface
 			\end{enumerate}
 			\item Best representation of nuclear power plant for a deep reinforcement learning agent?
@@ -92,4 +81,4 @@
 
 
 
-\end{document}
+% \end{document}
