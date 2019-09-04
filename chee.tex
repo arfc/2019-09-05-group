@@ -19,8 +19,6 @@
 
     \begin{figure}[]
         \centering
-        \caption{Depiction of coupling of Dakota and NFC code}
-        \label{fig:dakota-NFC-flow}
         \begin{tikzpicture}[node distance=2.5cm]
             \tikzstyle{every node}=[font=\large]
             \node (one) [sbblock]{\small Dakota input file};
@@ -33,16 +31,14 @@
             
             \draw [arrow] (one) -- (two);
             \draw [arrow] (two) -- (three);
-            %\draw [arrow] (All) -- node[anchor=west] {yes} (End);
-            %draw [arrow] (All) -- ([shift={(-3.9cm,0.7cm)}]All.south west)-- node[anchor=east] {no} ([shift={(-3.9cm,-0.85cm)}]Predict.north west)--(Predict);
-            %\draw [arrow] (End) |-([shift={(3cm,-0.5cm)}]End.south east)-- ([shift={(3cm,0.5cm)}]Start.north east)-|(Start);
         \end{tikzpicture}
+        \caption{Depiction of coupling of Dakota and NFC code}
+        \label{fig:dakota-NFC-flow}
     \end{figure}
 
 \end{frame}
 \begin{frame}
     \frametitle{Demand-Driven Cycamore Archetypes Project (NEUP-FY16-10512) }
-    % a comment
           \begin{columns}
                   \column[t]{5cm}
                   \textbf{Goal of DDCA Project}
