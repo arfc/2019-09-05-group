@@ -31,6 +31,10 @@
             
             \draw [arrow] (one) -- (two);
             \draw [arrow] (two) -- (three);
+            %\draw [arrow] (three) -- (one);
+            %\draw [arrow] (All) -- node[anchor=west] {yes} (End);
+            %draw [arrow] (All) -- ([shift={(-3.9cm,0.7cm)}]All.south west)-- node[anchor=east] {no} ([shift={(-3.9cm,-0.85cm)}]Predict.north west)--(Predict);
+            \draw [arrow] (three) |-([shift={(0cm,-0.5cm)}]three.south west)-- ([shift={(0cm,-0.5cm)}]one.south east)-|(one);
         \end{tikzpicture}
         \caption{Depiction of coupling of Dakota and NFC code}
         \label{fig:dakota-NFC-flow}
