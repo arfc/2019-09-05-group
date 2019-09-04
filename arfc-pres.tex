@@ -27,6 +27,16 @@
 \usepackage{bigints}
 \usepackage{minted}
 
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows, decorations, shapes}
+\usetikzlibrary{shapes.geometric,arrows}
+\definecolor{illiniblue}{HTML}{B1C6E2}
+\tikzstyle{bblock} = [rectangle, draw, fill=illiniblue, 
+text width=10em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{sbblock} = [rectangle, draw, fill=illiniblue, 
+text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
 \newcommand{\units}[1] {\:\text{#1}}%
 \newcommand{\SN}{S$_N$}%{S$_\text{N}$}%{$S_N$}%
 \DeclareMathOperator{\erf}{erf}
