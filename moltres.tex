@@ -1,15 +1,21 @@
 \begin{frame}
 	\frametitle{Moltres}
-	\
+	\begin{columns}
+		\column[t]{5cm}
 		\begin{itemize}
-			\item It is an application code built on the \gls{MOOSE}
+			\item Moltres is an application code built on the \gls{MOOSE}
 			framework, for the simulation of \glspl{MSR}.
 			\item MOOSE is an open source finite element framework that
 			relies on libMesh and PETSc for their advanced meshing and PDE
 			solver capabilities.
 			\item MOOSE provides a simple interface for creating application
 			codes for simulating various physical phenomena.
-			\item Moltres contains various "kernels" that each represent the
-			various physics present 
+			\item Moltres can run transient, fully implicit coupled
+			neutronics/thermal-hydraulics simulations of \glspl{MSR}.
 		\end{itemize}
+		\column[t]{5cm}
+%		\begin{figure}
+%			\centering
+%			\includegraphics[width=.9\textwidth]{./images/msre}
+%		\end{figure}
 \end{frame}
