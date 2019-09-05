@@ -1,0 +1,38 @@
+\begin{frame}
+	\frametitle{Roberto Fairhurst: Compressibility in Moltres}
+		\begin{columns}
+		\column[t]{6cm}
+
+		Compressibility in liquids:
+		
+            \begin{align}
+			\rho (\vec{v}.\nabla)\vec{v} + \nabla p - \rho g \check{j} - \mu \nabla^{2}\vec{v} = 0 \\
+			\vec{v}.\nabla\rho+\rho\nabla.\vec{v}=0 \\
+			\rho c_{v} (\vec{v}.\nabla)T - \nabla .(k\nabla T) + p (\nabla . \vec{v})= 0 \\
+			\rho = \rho_{0} + \frac{\rho_{0}}{K}(p-p_{0}) + \rho_{0}\beta(T-T_{0})
+            \end{align}
+
+			\begin{itemize}
+				\item Density dependency on pressure and temperature for liquids.
+				\item Next, implement it for gasses $p=\rho RT$
+			\end{itemize}
+
+		\column[t]{5cm}
+		\begin{figure}[htbp!]
+			\begin{center}
+				\includegraphics[height=2cm]{./images/liquid_compres.png}
+			\end{center}
+			\caption{Vertical velocity.}
+			\label{fig:velocity}
+		\end{figure}
+
+		\begin{figure}[htbp!]
+			\begin{center}
+				\includegraphics[height=2cm]{./images/rho.png}
+			\end{center}
+			\caption{Density distribution.}
+			\label{fig:density}
+		\end{figure}
+
+		\end{columns}
+\end{frame}
